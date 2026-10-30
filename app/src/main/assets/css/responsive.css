@@ -1,0 +1,75 @@
+@media (max-width:1120px) {
+    .page-content { padding-right: 30px; padding-left: 30px; }
+    .topbar { padding-right: 30px; padding-left: 30px; }
+    .current-grid { flex-direction: column; }
+    .current-card { min-height: 270px; }
+    .metric-area { margin: 1.5px; }
+    .metric-card { flex: 0 0 calc(25% - 12px); padding: 14px; }
+    .metric-icon { margin-bottom: 10px; }
+    .metric-card>strong { font-size: 21px; }
+    .data-source { align-items: flex-start; }
+}
+@media (max-width:760px) {
+    .sidebar { display: none; position: fixed; top: 64px; right: 0; bottom: auto; left: 0; width: auto; max-height: calc(100vh - 64px); overflow-y: auto; padding: 18px 20px 20px; border-top: 1px solid #ffffff24; }
+    .sidebar.open { display: flex; }
+    .brand-name small { display: none; }
+    .sidebar-bottom { margin-top: 25px; }
+    .mobile-header { position: sticky; top: 0; z-index: 30; display: flex; align-items: center; justify-content: space-between; height: 64px; padding: 0 20px; background: var(--navy); color: #fff; }
+    .mobile-header .brand { font-size: 18px; }
+    .menu-button { width: 39px; height: 39px; border: 1px solid #ffffff35; border-radius: 8px; background: #ffffff0b; color: #fff; font-size: 21px; }
+    .main-content { margin-left: 0; }
+    .topbar { height: 46px; padding: 0 20px; }
+    .topbar-meta { font-size: 10px; }
+    .page-content { padding: 28px 20px 42px; }
+    .home-intro { flex-direction: column; align-items: flex-start; margin-top: 10px; }
+    .home-intro > div { margin-right: 0; margin-bottom: 25px; }
+    .home-intro h1,.page-header h1 { font-size: clamp(36px,8vw,48px); }
+    .current-card { padding: 21px; }
+    .temperature { font-size: 50px; }
+    .metric-area { margin: 1.5px; }
+    .metric-card { flex: 0 0 calc(50% - 12px); min-height: 144px; }
+    .day-brief { flex-wrap: wrap; align-items: flex-start; }
+    .day-brief>div { flex: 0 0 calc(100% - 51px); min-width: calc(100% - 51px); }
+    .day-brief .text-link { margin-left: 51px; margin-top: 14px; }
+    .hourly-strip { }
+    .hour-card { width: 78px; }
+    .day-range { flex-direction: column; align-items: flex-start; }
+    .day-range h2 { margin-right: 0; margin-bottom: 25px; }
+    .range-visual { width: 100%; }
+    .commute-grid { flex-direction: column; }
+    .route-middle { flex: 0 0 auto; flex-direction: row; margin: 10px 0; padding: 4px; }
+    .route-middle small br { display: none; }
+    .advice-columns { flex-direction: column; margin: 0; }
+    .advice-column { flex: 0 0 100%; margin: 0 0 13px 0; }
+    .prep-grid { flex-direction: column; margin: 0; }
+    .prep-card { flex: 0 0 100%; margin: 0 0 14px 0; }
+    .prep-card>p { min-height: 0; }
+    .prep-bottom { flex-direction: column; align-items: flex-start; }
+    .prep-bottom h2 { margin-right: 0; margin-bottom: 25px; }
+    .about-features { flex-direction: column; margin: 0; }
+    .about-features article { flex: 0 0 100%; margin: 0 0 14px 0; }
+    .data-source { padding: 18px; }
+    .api-path { flex-wrap: wrap; }
+    .about-lead { flex-direction: column; padding: 20px; }
+    .about-symbol { margin-right: 0; margin-bottom: 20px; width: 48px; height: 48px; font-size: 27px; }
+    .app-footer { flex-direction: column; align-items: flex-start; padding: 17px 20px; }
+    .app-footer > * + * { margin-left: 0; margin-top: 15px; }
+    .page-section { min-height: calc(100vh - 110px); }
+}
+@media (max-width:420px) {
+    .home-intro h1 { font-size: 37px; letter-spacing: -1.1px; }
+    .search-form .button { padding: 8px 12px; }
+    .search-form input { margin-right: 6px; }
+    .current-top { flex-direction: column; }
+    .current-reading { flex-direction: column; align-items: flex-start; }
+    .current-symbol { margin-right: 0; margin-bottom: 10px; }
+    .current-summary { margin-left: -8px; }
+    .current-summary > span { margin-left: 8px; }
+    .current-summary .summary-divider { display: none; }
+    .metric-card { padding: 12px; }
+    .metric-card>strong { font-size: 19px; }
+    .prep-context { flex-direction: column; align-items: flex-start; }
+    .prep-context-icon { margin-right: 0; margin-bottom: 12px; }
+    .context-live { font-size: 8px; }
+    .api-path { font-size: 7px; }
+}

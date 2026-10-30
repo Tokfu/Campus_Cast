@@ -1,0 +1,22 @@
+.about-header { margin-bottom: 35px; }
+.about-lead { display: flex; align-items: flex-start; padding: 26px; border: 1px solid var(--line); border-radius: 14px; background: #fff; }
+.about-symbol { flex: 0 0 61px; display: flex; align-items: center; justify-content: center; height: 61px; margin-right: 20px; border-radius: 15px; background: #E1F4F6; color: var(--teal); font-size: 34px; }
+.about-lead > div { flex: 1; min-width: 0; }
+.about-lead h2 { margin: 0 0 8px; font: 700 26px/1.2 "DM Sans",sans-serif; }
+.about-lead p:last-child { max-width: 680px; margin: 0; color: #607F8C; font-size: 13px; }
+.about-feature-area { margin-top: 37px; }
+.about-features { display: flex; flex-wrap: wrap; margin: -7px; }
+.about-features article { flex: 0 0 calc(33.333% - 14px); padding: 17px 17px 20px; margin: 7px; border: 1px solid var(--line); border-radius: 11px; background: #fff; box-sizing: border-box; }
+.about-features article>span { display: none; }
+.about-features h3 { margin: 0 0 7px; font: 700 17px/1.25 "DM Sans",sans-serif; }
+.about-features p { margin: 0; color: #638594; font-size: 11px; }
+.data-source { display: flex; align-items: flex-start; flex-wrap: wrap; margin-top: 29px; padding: 23px; border: 1px solid #D0E8E7; border-radius: 13px; background: #E7F6EF; }
+.source-emblem { flex: 0 0 40px; display: flex; align-items: center; justify-content: center; height: 40px; margin-right: 17px; border-radius: 12px; background: #CDEDE0; color: #147F90; font-size: 23px; }
+.source-copy { flex: 1; min-width: 0; }
+.source-copy h2 { margin: 0 0 8px; font: 700 22px "DM Sans",sans-serif; }
+.source-copy p { max-width: 600px; margin: 0; color: #5F7D89; font-size: 12px; }
+.source-link { display: inline-block; margin-top: 13px; color: #0E7F94; font-size: 11px; font-weight: 700; }
+.source-link:hover { text-decoration: underline; }
+.api-path { display: flex; align-items: center; width: 100%; margin-top: 18px; color: #6F969E; font: 8px "DM Sans",sans-serif; letter-spacing: .5px; white-space: nowrap; }
+.api-path > * + * { margin-left: 7px; }
+.about-disclaimer { display: none; }
